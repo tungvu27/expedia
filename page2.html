@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;1,300;1,400&family=Lato:ital,
+    wght@0,300;0,700;0,900;1,300;1,400&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    <title>Expedia</title>
+</head>
+
+<body>
+    <div>
+        <header>
+          <div class="logo">
+            <img src="./img/logo.svg" alt="">
+        </div>
+            <div class="header container-sm">
+                <div class="nav_bar">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Hướng dẫn</a></li>
+                        <li><a href="#">Địa điểm</a></li>
+                        <li><a href="#">Hỗ trợ</a></li>
+                    </ul>
+                </div>
+                <div class="buttom_contact">
+                    <button onclick="location.href='page.html'">Liên hệ</button>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="side2">
+            <h2>Lưu giữ
+              <br>những kỉ niệm
+            </h2>
+            <p>Cùng Expedia khám phá những điểm đến mới, lưu lại những khoảnh khắc đáng nhớ và 
+              khiến cho chuyến du lịch trở nên thật sự đáng nhớ và đặc biệt. </p>
+            <button>Expedia</button>
+        </section>
+
+
+        <section class="form_submit container">
+            <div class="form">
+              <h1 class="timkhachsan">Tìm khách sạn</h1>
+              <form action="" class="form">
+                <div>
+                  <input type="text" id="going-to" placeholder="Nơi ở">
+                </div>
+  
+                <div>
+                  <input type="datetime-local" id="chech-in" placeholder="Ngày đến">
+                </div>
+  
+                <div>
+                  <input type="datetime-local" id="check-out" placeholder="Ngày rời đi">
+                </div>
+  
+                <div>
+                  <button onclick="saveFormData()">Tra cứu</button>
+                </div>
+              </form>
+            </div>
+  
+            <div>
+              <img src="./img/002.jpg" alt="" class="anh2">
+            </div>
+          </section>
+
+
+          <footer>
+            <div class="titel_contact container">
+                <div>
+                    <img src="./img/logo.svg" alt="">
+                </div>
+
+                <div>
+                        <div class="contact">
+                            <div>
+                                <ul>
+                                    <li>Trang chủ</li>
+                                    <li>Về chúng tôi</li>
+                                    <li>Liên hệ</li>
+                                    </ul>
+                            </div>
+                        </div>
+                </div>
+            
+
+                <div class="address">
+                  <p class="address-title">Địa chỉ</p>
+                  <p class="address-title">Điện thoại</p>
+                  <p class="address-title">Hòm thư</p>
+                </div>
+            
+            </div>
+
+            <p class="text-footer">2023 Expedia. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
